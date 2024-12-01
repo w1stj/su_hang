@@ -116,7 +116,7 @@ else:
                 for item in items:
                     st.write(f"- {item['text']}")
                     if item["image"] != "링크를 입력하세요":
-                        st.image(item["image"], use_column_width=True)
+                        st.image(item["image"], use_column_width=True, width = 40)
 
     # 기분 재설정 버튼
     if st.button("기분 재설정"):
